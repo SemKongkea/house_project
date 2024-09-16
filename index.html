@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHPX</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header  nav-bar -->
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-logo">
+          <button class="toggle">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <ul class="nav-list">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+          <li class="nav-link"><a href="#">Product</a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
+        </ul>
+        <div class="icon">
+          <button class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- hero section -->
+    <section class="hero-section">
+      <article class="hero-container">
+        <div class="hero-img">
+          <img src="./img/hero.jpg" alt="hero" />
+        </div>
+        <div class="hero-txt">
+          <h2>Modern Interior for your Dream House</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </article>
+    </section>
+    <!--product-list  -->
+    <section class="product-list-section">
+      <!-- product-container -->
+      <article class="product-container">
+        <!-- product-heading -->
+        <div class="product-heading">
+          <h2>Products</h2>
+          <ul class="product-list-name">
+            <li class="product-link-name"><a href="#">All</a></li>
+            <li class="product-link-name"><a href="#">Lamp</a></li>
+            <li class="product-link-name"><a href="#">Chair</a></li>
+            <li class="product-link-name"><a href="#">Table</a></li>
+            <li class="product-link-name"><a href="#">Sofa</a></li>
+          </ul>
+          <select class="select">
+            <option id="all" value="All">All</option>
+            <option id="lamp" value="Lamp">Lamp</option>
+            <option id="chair" value="Chair">Chair</option>
+            <option id="table" value="Table">Table</option>
+            <option id="sofa" value="Sofa">Sofa</option>
+          </select>
+        </div>
+
+        <!-- product-card -->
+
+        <section class="product-card-section">
+          <ul class="product-list">
+            <li class="product">
+              <h2><a href="#">Chair</a></h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/chair.png" alt="Chair" />
+            </li>
+            <li class="product">
+              <h2><a href="#">Chair</a></h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/chair2.png" alt="Chair2" />
+            </li>
+            <li class="product">
+              <h2><a href="#">Chair</a></h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/chair3.png" alt="Chair3" />
+            </li>
+            <li class="product">
+              <h2><a href="#">Table</a></h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/table.png" alt="Table" />
+            </li>
+            <li class="product">
+              <h2><a href="#">Lamp</a></h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/lamp.png" alt="Lamp" />
+            </li>
+            <li class="product">
+              <h2>Sofa</h2>
+              <h3>18.00$</h3>
+              <img src="./product-img/sofa.png" alt="Sofa" />
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+    <!-- product-showcase -->
+    <section class="product-showcase">
+      <article class="slider">
+        <!-- slide-one -->
+        <div class="slide">
+          <a class="slide-img">
+            <img src="./product-showcase/lamp.jpg" alt="Lamp" />
+          </a>
+          <div class="slide-txt">
+            <h2>Lamp</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@justindkauffman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Justin Kauffman</a
+              >
+              on
+              <a
+                href="https://unsplash.com/photos/fpoHihXiMhg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- slide-two -->
+        <div class="slide">
+          <a class="slide-img">
+            <img src="./product-showcase/chair.jpg" alt="Chair" />
+          </a>
+          <div class="slide-txt">
+            <h2>Chair</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@ninjason?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Jason Leung</a
+              >
+              on
+              <a
+                href="https://unsplash.com/photos/rjFSuf6fEc8?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- slide-three -->
+        <div class="slide">
+          <a class="slide-img">
+            <img src="./product-showcase/sofa.jpg" alt="Sofa" />
+          </a>
+          <div class="slide-txt">
+            <h2>Sofa</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@heftiba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Toa Heftiba</a
+              >
+              on
+              <a
+                href="https://unsplash.com/photos/4t8_1MKvPd8?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- arrow-btn -->
+      </article>
+      <div class="arrow-btn">
+        <button class="btn-back">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="btn-next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <h1>Get your quotation today</h1>
+        <div class="footer-btn-container">
+          <button class="footer-btn">Quote me</button>
+          <button class="footer-btn">Contact sales</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
